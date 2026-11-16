@@ -3,16 +3,16 @@
   title: "農業的交易：進步還是陷阱",
   hook: "是我們馴化了小麥，還是小麥馴化了我們？",
   tags: "農業革命、奢侈品陷阱、馬爾薩斯陷阱、前鋒波、稻粟起源",
-  status: "planned", estDur: "約 14 分", segWord: "小節",
+  status: "planned", estDur: "約 13 分", segWord: "小節",
   sections: [
     { t: 0, title: "一株野草的逆襲" },
-    { t: 90, title: "更多人、更差的日子" },
-    { t: 180, title: "奢侈品陷阱" },
-    { t: 252, title: "骨頭與閒暇不會說謊" },
-    { t: 357, title: "慢動作的革命：麵包、稻米與小米" },
-    { t: 462, title: "農業的前鋒波：從黎凡特到臺灣" },
-    { t: 567, title: "不是陷阱，是制度與均衡？" },
-    { t: 672, title: "爭議與判斷" }
+    { t: 83, title: "更多人、更差的日子" },
+    { t: 166, title: "奢侈品陷阱" },
+    { t: 240, title: "骨頭與閒暇不會說謊" },
+    { t: 333, title: "慢動作的革命：麵包、稻米與小米" },
+    { t: 428, title: "農業的前鋒波：從黎凡特到臺灣" },
+    { t: 540, title: "不是陷阱，是制度與均衡？" },
+    { t: 639, title: "爭議與判斷" }
   ],
   formula: R`\frac{\partial n}{\partial t}=D\,\nabla^2 n+a\,n\left(1-\frac{n}{K}\right),\qquad v=2\sqrt{aD}`,
   pre: [
