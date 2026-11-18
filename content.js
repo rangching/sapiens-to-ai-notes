@@ -619,16 +619,16 @@ window.UNITS = [
   title: "意識與演算法：你是一組生化演算法嗎？",
   hook: "AI 不需要感覺也能做事，那「感覺」到底有什麼用？",
   tags: "意識、預測處理、自由意志、峰終法則、疊加、機制可解釋性",
-  status: "planned", estDur: "約 14 分", segWord: "小節",
+  status: "planned", estDur: "約 13 分", segWord: "小節",
   sections: [
     { t: 0, title: "你唯一無法懷疑的事" },
-    { t: 72, title: "生物＝演算法？自由意志只是故事" },
-    { t: 162, title: "腦中的發言人，與分家的智能" },
-    { t: 252, title: "大腦是一台猜測機器" },
-    { t: 357, title: "大腦比你先決定？發言人有多可靠？" },
-    { t: 462, title: "打開 AI 黑盒" },
-    { t: 567, title: "AI 有意識嗎？怎麼量？" },
-    { t: 672, title: "意識離得開生命嗎？" }
+    { t: 86, title: "生物＝演算法？自由意志只是故事" },
+    { t: 156, title: "腦中的發言人，與分家的智能" },
+    { t: 250, title: "大腦是一台猜測機器" },
+    { t: 340, title: "大腦比你先決定？發言人有多可靠？" },
+    { t: 429, title: "打開 AI 黑盒" },
+    { t: 548, title: "AI 有意識嗎？怎麼量？" },
+    { t: 629, title: "意識離得開生命嗎？" }
   ],
   formula: R`e=x-Wr,\qquad r\leftarrow r+\eta_r\,(W^{\top}e-\lambda r),\qquad F=\lVert e\rVert^{2}+\lambda\lVert r\rVert^{2}`,
   pre: [
@@ -673,6 +673,10 @@ window.UNITS = [
 <li><b>Alaybek 等 2022</b>（Organizational Behavior and Human Decision Processes）：174 個效果量顯示「高峰＋結尾」對事後評價的預測力很強（$r\approx0.58$），持續時間幾乎無影響 <span class="tag">支持</span> <a href="https://doi.org/10.1016/j.obhdp.2022.104149" target="_blank" rel="noopener">來源</a></li>
 <li><b>Elhage 等 2022；Templeton 等 2024</b>（Anthropic 研究報告）：特徵比維度多時，模型用疊加把它們擠在一起；稀疏自編碼器從 Claude 3 Sonnet 拆出數以百萬計的特徵，例如「金門大橋」 <span class="tag">補充</span> <a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/" target="_blank" rel="noopener">來源</a></li>
 <li><b>Lindsey、Batson 等 2025</b>（Anthropic 研究報告）：電路追蹤發現模型算 36＋59 的內部路徑，與它口述的進位算法不同；方法約只對四分之一的提示有用 <span class="tag">支持</span> <a href="https://transformer-circuits.pub/2025/attribution-graphs/biology.html" target="_blank" rel="noopener">來源</a></li>
+<li><b>Schurger、Sitt &amp; Dehaene 2012</b>（PNAS）：自發動作前的準備電位，可以用「雜訊累積到門檻」的模型重現；斜坡可能是事後對齊造成的，不一定是大腦提前做好的決定 <span class="tag">修正</span> <a href="https://doi.org/10.1073/pnas.1210467109" target="_blank" rel="noopener">來源</a></li>
+<li><b>Lindsey 2025</b>（Anthropic 研究報告，2025-10-29 公布；arXiv 2601.01828，2026-01-05）：概念注入實驗中，Claude Opus 4.1 在最佳設定下約兩成時候能察覺被注入的概念；作者明言這不代表有意識 <span class="tag">補充</span> <a href="https://arxiv.org/abs/2601.01828" target="_blank" rel="noopener">來源</a></li>
+<li><b>Butlin、Long 等 19 位學者 2026</b>（Trends in Cognitive Sciences 30(6)）：從神經科學意識理論推導 AI 意識指標，符合的指標愈多、可信度愈高，不必先決定哪個理論正確 <span class="tag">補充</span> <a href="https://doi.org/10.1016/j.tics.2025.10.011" target="_blank" rel="noopener">來源</a></li>
+<li><b>Rethink Priorities 2026</b>（數位意識模型，預印本 v3，2026-09）：整合 13 種意識觀點的機率框架；證據不支持 2024 年的大型語言模型有意識，但不是決定性結論，且對各觀點的權重高度敏感 <span class="tag">補充</span> <a href="https://arxiv.org/abs/2601.17060" target="_blank" rel="noopener">來源</a></li>
 </ul>` },
     { h: "〔爭議與判斷〕", b: R`<ul>
 <li><b>「生物就是演算法」是哲學立場，不是定論</b>：Anil Seth（Behavioral and Brain Sciences, 2025）的生物自然主義質疑基質獨立性，主張意識可能離不開活著的身體；但他同意高度智能不需要意識。判斷：哈拉瑞的「脫鉤」站得住，「等號」仍要打問號。</li>
@@ -681,8 +685,10 @@ window.UNITS = [
 <li><b>從動物到 AI 的預防原則</b>：2024 年紐約動物意識宣言把「現實可能性」擴大到魚類、頭足類與昆蟲；微軟 AI 的 Suleyman 則警告「看起來有意識」的 AI 會引發危險的權利之爭。判斷：這正是「智能與意識脫鉤」的現實版本，仍沒有共識。</li>
 </ul>` },
     { h: "動手模擬", b: R`<ul>
-<li><b>最小預測編碼網路（Rao &amp; Ballard 1999 精簡版）</b>：16 格光條輸入、4 維潛在變數，預測 $Wr$、誤差 $e=x-Wr$，推論時 $r\leftarrow r+\eta_r(W^{\top}e-\lambda r)$（$\eta_r=0.1$、$\lambda=0.1$）。訓練後，熟悉的光條讓 $F=\lVert e\rVert^2+\lambda\lVert r\rVert^2$ 很快降到接近 0、誤差神經元先亮後暗；從未見過的棋盤格讓誤差一直亮著，這就是大腦的「咦？」。</li>
-<li><b>疊加與稀疏自編碼器（Elhage 等 2022 的經典設定）</b>：5 個特徵壓進 2 維再還原，$x'=\mathrm{ReLU}(W^{\top}Wx+b)$。稀疏度 $S$ 從 0 升到 0.97，二維平面上的特徵箭頭從 2 根互相垂直，逐漸長成 5 根排成正五邊形；再用稀疏自編碼器從 8 維的糾纏活化裡，把 20 個真實特徵一個一個拆回來。</li>
+<li><b>最小預測編碼網路（Rao &amp; Ballard 1999 精簡版）</b>：16 格光條輸入、4 維潛在變數，預測 $Wr$、誤差 $e=x-Wr$，推論時 $r\leftarrow r+\eta_r(W^{\top}e-\lambda r)$（$\eta_r=0.1$、$\lambda=0.1$）。訓練後，熟悉的光條讓 $F=\lVert e\rVert^2+\lambda\lVert r\rVert^2$ 在幾步之內降了八成多（平均約 4.5 降到 0.8）、誤差神經元先亮後暗；從未見過的棋盤格，$F$ 最後約是熟悉光條的 6 倍，誤差一直亮著，這就是大腦的「咦？」。</li>
+<li><b>疊加與稀疏自編碼器（Elhage 等 2022 的經典設定）</b>：5 個特徵壓進 2 維再還原，$x'=\mathrm{ReLU}(W^{\top}Wx+b)$。稀疏度 $S$ 從 0 升到 0.97，二維平面上的特徵箭頭從 2 根互相垂直，到 $S=0.7$ 變成 4 根排成十字，再長成 5 根排成正五邊形（換隨機種子時，$S=0.9$ 偶爾只有 4 根）。</li>
+<li><b>稀疏自編碼器</b>：20 個真實特徵糾纏在 8 個神經元裡，單看一個神經元，和特徵的吻合度平均只有約 0.63；用 40 個字典方向的稀疏自編碼器（$\lambda_1=0.3$、學習率 $3\times10^{-3}$）訓練後，20 個特徵中有 16 個以餘弦相似度 0.9 以上被找回。這是示範其中一次：換 10 個隨機種子，找回 9–16 個（中位數 14）；$\lambda_1$ 太小（0.001）時字典不夠稀疏、拆不開。</li>
+<li><b>準備電位的雜訊累積模型（Schurger 等 2012 原文參數）</b>：漏電累積器 $\dot x=I-kx+c\,\xi$（$I=0.11$、$k=0.5$、$c=0.1$），第一次碰到門檻 0.298 就動手。把 100 次試驗對齊在「動手那一刻」往前看 3 秒，平均曲線從約 0.10 慢慢升到 0.30，看起來像大腦提前準備；但每一條單獨看都在上下亂跳，不對齊時平均是平的。</li>
 </ul>` },
     { h: "思考題", b: R`<ol>
 <li>你有過「事後才幫自己的決定找理由」的經驗嗎？那個理由是真的原因，還是你的「左腦翻譯員」編出來的？</li>
